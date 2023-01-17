@@ -1,5 +1,5 @@
 1. How much is the current memory capacity of a canister?
--> 8gb stable memory
+-> 48gb
 
 2. What is the issue with the following code sample?
 -> cannot change an immutable 'let' use 'var' instead

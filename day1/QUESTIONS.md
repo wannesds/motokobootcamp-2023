@@ -1,4 +1,4 @@
-1. 48gb
+1. 48gb 
 
 2. cannot change an immutable 'let' use 'var' instead
 

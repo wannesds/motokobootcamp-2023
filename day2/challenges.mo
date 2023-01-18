@@ -32,6 +32,7 @@ actor {
     let te = Text.split(t, #char(' '));
       for (e in te) {
         if (Text.contains(e, #predicate( func(x) {Char.isDigit(x)} ))) {
+          // do nothing
           } else { n += 1 };
       };
     return n;

@@ -3,6 +3,7 @@ import Int "mo:base/Int";
 import Nat "mo:base/Nat";
 import Text "mo:base/Text";
 import Char "mo:base/Char";
+import Iter "mo:base/Iter";
 
 actor {
   //challenge 1
@@ -23,7 +24,11 @@ actor {
 
   //challenge 3
   public query func factorial(n : Nat) : async Nat {
-    return Nat.pow(n, n);
+    var facto : Nat = n; //init first value
+    for(i in Iter.range(1, n - 1)){
+      facto *= i;
+    };
+    return facto;
   };
 
   //challenge 4

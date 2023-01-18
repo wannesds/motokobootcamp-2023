@@ -41,7 +41,7 @@ actor {
   public query func find_duplicates(a : [Nat]) : async [Nat] { 
     var newA : [Nat] = [];
       for (n in a.vals()) {
-          var dupN : [Nat] = Array.filter<Nat>(a, func (x: Nat) : Bool {x == n});
+          let dupN : [Nat] = Array.filter<Nat>(a, func (x: Nat) : Bool {x == n});
           if(dupN.size() > 1) {
             newA := Array.append(newA, [n]);
           };

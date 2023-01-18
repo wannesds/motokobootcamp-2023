@@ -9,7 +9,7 @@ pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe
 11.95 because Dissolve <= Age
 
 4. 
-there's missing a 'return' ALSO missing Nat import
+there's missing a 'query' because it's a public function to be called that returns a value and does not change any states ALSO missing Nat import
 
 5. 
 Theres a type problem, solutions:

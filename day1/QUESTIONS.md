@@ -4,4 +4,4 @@
 
 3. value for text should be wrapped in ""
 
-4. False
+4. False, async is needed for data flow from/to the canister

@@ -2,7 +2,8 @@
 True
 
 2. 
-False, It's the subnet nodes that don't have to go through consensus when doing query calls
+False, It are the subnet-nodes that don't participate in consensus when doing query call.
+
 
 3. 
 True

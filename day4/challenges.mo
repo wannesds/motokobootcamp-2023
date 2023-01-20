@@ -25,10 +25,8 @@ actor {
   };
 
   //challenge 3
-  private let anonymousPrincipal : Blob = "\04";
+  
 
-  public func isAnonymous(p : Principal) : async Bool {
-    Prim.blobOfPrincipal p == anonymousPrincipal;
-  };
+
 }
 

@@ -9,6 +9,7 @@ actor {
   private func unique<T>(l : List<T>, equal: (T,T) -> Bool) : List<T> {
        //this sucked so hard, especially with the required equal stuff.
        //tried switch in switch statement with recursive func calling, but couldnt get it working
+       //Who was so evil to have invented Lists >:c
        return l;
     };
   

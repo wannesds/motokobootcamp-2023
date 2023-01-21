@@ -7,8 +7,7 @@ actor {
   public type List<T> = List.List<T>;
   
   private func unique<T>(l : List<T>, equal: (T,T) -> Bool) : List<T> {
-       //this sucked so hard, especially with the required equal stuff.
-       //tried switch in switch statement with recursive func calling, but couldnt get it working
+       //tried switch in switch statement with recurating func calling, but nope
        //Who was so evil to have invented Lists >:c
        return l;
     };
